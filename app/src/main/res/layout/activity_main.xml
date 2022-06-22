@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <TextView
         android:id="@+id/text_today"
@@ -33,20 +33,20 @@
         android:textSize="15sp" />
 
     <TextView
+        android:id="@+id/text_daysLeft"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_qtdDias"
         android:gravity="center"
-        android:text="325 dias"
-        android:id="@+id/text_daysLeft"
+        android:text="@string/dias"
         android:textColor="@color/green_accent"
         android:textSize="50sp" />
 
     <Button
+        android:id="@+id/button_confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="SIM/NÃO/Não confirmado"
-        android:id="@+id/button_confirm"/>
+        android:text="SIM/NÃO/Não confirmado" />
 
 </RelativeLayout>
