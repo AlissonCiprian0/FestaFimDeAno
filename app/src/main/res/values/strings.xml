@@ -2,4 +2,7 @@
     <string name="app_name">FestaFimDeAno</string>
     <string name="vai_participar">Você vai participar?</string>
     <string name="dias">dias</string>
+    <string name="nao_confirmado">Não confirmado</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
 </resources>
